@@ -296,27 +296,6 @@ header {
     border-radius: 8px;
 }
 
-.nav-menu a::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 0;
-    width: 0;
-    height: 2px;
-    background: var(--primary-gradient);
-    transition: var(--transition);
-}
-
-.nav-menu a:hover {
-    background: var(--primary-gradient);
-    color: white;
-    transform: translateY(-2px);
-}
-
-.nav-menu a:hover::after {
-    width: 100%;
-}
-
 .nav-menu a i {
     margin-right: 8px;
     font-size: 1.1rem;
@@ -1877,7 +1856,6 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a:hover {
     background: var(--primary-gradient);
     color: white;
-    transform: translateY(-2px);
 }
 
 .nav-menu a i {
